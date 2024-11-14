@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bead Station</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html">
+                <img src="img/Bead Station logo.png" alt="Logo de Bead Station" class="logo">
+            </a>
+            <a href="index.html">
+                <h1 class="flex-title">
+                    <span class="bead">Bead</span>
+                    <span class="station">Station</span>
+                </h1>
+            </a>
+            <div class="search-container">
+                <label for="search">¿Qué estás buscando?</label>
+                <input type="text" id="search" placeholder="Buscar...">
+            </div>
+            <div class="user-cart">
+                <img src="img/Usuario.png" alt="Usuario" class="user-icon">
+                <img src="img/Carrito.png" alt="Carrito" class="cart-icon">
+            </div>
+        </div>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="productos">
+            <!-- Contenedor para Producto 1 -->
+            <div class="producto">
+                <div class="product-images">
+                    <div class="image-container">
+                        <a href="producto1.html">
+                        <input type="radio" name="image1" id="img1" checked>
+                        <input type="radio" name="image1" id="img2">
+        
+                        <label for="img1" class="product-image">
+                            <img src="img/beads/Eeveelucion1.jpg" width="250" height="200" alt="Producto 1">
+                        </label>
+                        <label for="img2" class="product-image">
+                            <img src="img/beads/Eeveelutions Heladera.jpg" width="340" height="340" alt="Producto 1 Alternativa">
+                        </label>
+        
+                        <!-- Áreas de clic invisibles para cambiar de imagen -->
+                        <label for="img1" class="click-area left-click"></label>
+                        <label for="img2" class="click-area right-click"></label>
+                        </a>
+                    </div>
+                </div>
+                <h2><a href="producto1.html">Eeveelutions</a></h2>
+                <p>$4500 c/u</p>
+            </div>
+            <!-- Contenedor para Producto 2 -->
+            <div class="producto">
+                <div class="product-images">
+                    <div class="image-container">
+                        <input type="radio" name="image2" id="img3" checked>
+                        <input type="radio" name="image2" id="img4">
+        
+                        <label for="img3" class="product-image">
+                            <img src="img/beads/Escudos Shingeki.jpg" width="200" height="200" alt="Producto 2">
+                        </label>
+                        <label for="img4" class="product-image">
+                            <img src="img/beads/Escudos Shingeki - Heladera.jpg" width="300" height="300" alt="Producto 2 Alternativa">
+                        </label>
+        
+                        <label for="img3" class="click-area left-click"></label>
+                        <label for="img4" class="click-area right-click"></label>
+                    </div>
+                </div>
+                <h2>Escudo Attack on Titan</h2>
+                <p>$4500 c/u</p>
+            </div>
+            <!-- Contenedor para Producto 3 -->
+            <div class="producto">
+                <div class="product-images">
+                    <div class="image-container">
+                        <input type="radio" name="image3" id="img5" checked>
+                        <input type="radio" name="image3" id="img6">
+        
+                        <label for="img5" class="product-image">
+                            <img src="img/beads/imagen3.jpg" width="250" height="200" alt="Producto 3">
+                        </label>
+                        <label for="img6" class="product-image">
+                            <img src="img/beads/imagen3_alternativa.jpg" width="250" height="200" alt="Producto 3 Alternativa">
+                        </label>
+        
+                        <label for="img5" class="click-area left-click"></label>
+                        <label for="img6" class="click-area right-click"></label>
+                    </div>
+                </div>
+                <h2>Producto 3</h2>
+                <p>$20.00</p>
+            </div>
+            <!-- Contenedor para Producto 4 -->
+            <div class="producto">
+                <div class="product-images">
+                    <div class="image-container">
+                        <input type="radio" name="image4" id="img7" checked>
+                        <input type="radio" name="image4" id="img8">
+        
+                        <label for="img7" class="product-image">
+                            <img src="img/beads/imagen4.jpg" width="250" height="200" alt="Producto 4">
+                        </label>
+                        <label for="img8" class="product-image">
+                            <img src="img/beads/imagen4_alternativa.jpg" width="250" height="200" alt="Producto 4 Alternativa">
+                        </label>
+        
+                        <label for="img7" class="click-area left-click"></label>
+                        <label for="img8" class="click-area right-click"></label>
+                    </div>
+                </div>
+                <h2>Producto 4</h2>
+                <p>$25.00</p>
+            </div>
+            <!-- Contenedor para Producto 5 -->
+            <div class="producto">
+                <div class="product-images">
+                    <div class="image-container">
+                        <input type="radio" name="image5" id="img9" checked>
+                        <input type="radio" name="image5" id="img10">
+        
+                        <label for="img9" class="product-image">
+                            <img src="img/beads/imagen5.jpg" width="250" height="200" alt="Producto 5">
+                        </label>
+                        <label for="img10" class="product-image">
+                            <img src="img/beads/imagen5_alternativa.jpg" width="250" height="200" alt="Producto 5 Alternativa">
+                        </label>
+        
+                        <label for="img9" class="click-area left-click"></label>
+                        <label for="img10" class="click-area right-click"></label>
+                    </div>
+                </div>
+                <h2>Producto 5</h2>
+                <p>$30.00</p>
+            </div>
+            <!-- Contenedor para Producto 6 -->
+            <div class="producto">
+                <div class="product-images">
+                    <div class="image-container">
+                        <input type="radio" name="image6" id="img11" checked>
+                        <input type="radio" name="image6" id="img12">
+        
+                        <label for="img11" class="product-image">
+                            <img src="img/beads/imagen6.jpg" width="250" height="200" alt="Producto 6">
+                        </label>
+                        <label for="img12" class="product-image">
+                            <img src="img/beads/imagen6_alternativa.jpg" width="250" height="200" alt="Producto 6 Alternativa">
+                        </label>
+        
+                        <label for="img11" class="click-area left-click"></label>
+                        <label for="img12" class="click-area right-click"></label>
+                    </div>
+                </div>
+                <h2>Producto 6</h2>
+                <p>$35.00</p>
+            </div>
+            <!-- Contenedor para Producto 7 -->
+            <div class="producto">
+                <div class="product-images">
+                    <div class="image-container">
+                        <input type="radio" name="image7" id="img13" checked>
+                        <input type="radio" name="image7" id="img14">
+        
+                        <label for="img13" class="product-image">
+                            <img src="img/beads/imagen7.jpg" width="250" height="200" alt="Producto 7">
+                        </label>
+                        <label for="img14" class="product-image">
+                            <img src="img/beads/imagen7_alternativa.jpg" width="200" height="200" alt="Producto 7 Alternativa">
+                        </label>
+        
+                        <label for="img13" class="click-area left-click"></label>
+                        <label for="img14" class="click-area right-click"></label>
+                    </div>
+                </div>
+                <h2>Producto 7</h2>
+                <p>$40.00</p>
+            </div>
+            <!-- Contenedor para Producto 8 -->
+            <div class="producto">
+                <div class="product-images">
+                    <div class="image-container">
+                        <input type="radio" name="image8" id="img15" checked>
+                        <input type="radio" name="image8" id="img16">
+        
+                        <label for="img15" class="product-image">
+                            <img src="img/beads/imagen8.jpg" width="250" height="200" alt="Producto 8">
+                        </label>
+                        <label for="img16" class="product-image">
+                            <img src="img/beads/imagen8_alternativa.jpg" width="250" height="200" alt="Producto 8 Alternativa">
+                        </label>
+        
+                        <label for="img15" class="click-area left-click"></label>
+                        <label for="img16" class="click-area right-click"></label>
+                    </div>
+                </div>
+                <h2>Producto 8</h2>
+                <p>$45.00</p>
+            </div>
+        </section>
+        <section class="reseñas">
+            <h2>Reseñas de nuestros clientes</h2>
+            <div class="reseñas-container">
+                <div class="reseña">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>"¡Excelente calidad y atención al cliente!"</p>
+                    <span>- Juan P.</span>
+                </div>
+                <div class="reseña">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>"Muy contento con mi compra, volveré a comprar."</p>
+                    <span>- Ana M.</span>
+                </div>            
+                <div class="reseña">
+                    <p>⭐⭐⭐⭐</p>
+                    <p>"La atención fue excelente, pero el producto llegó con un pequeño detalle."</p>
+                    <span>- Carlos T.</span>
+                </div>
+                <div class="reseña">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>"Producto de excelente calidad, realmente satisfecha con la compra."</p>
+                    <span>- Marta L.</span>
+                </div>
+                <div class="reseña">
+                    <p>⭐⭐⭐⭐</p>
+                    <p>"Buena experiencia, aunque la entrega tardó un poco más de lo esperado."</p>
+                    <span>- Andrés G.</span>
+                </div>
+            </div>
+        </section>
+              
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bead Station. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
